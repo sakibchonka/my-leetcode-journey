@@ -1,5 +1,5 @@
 // 1971. Find if Path Exists in Graph
-//link: https://leetcode.com/problems/find-if-path-exists-in-graph/description/
+// link: https://leetcode.com/problems/find-if-path-exists-in-graph/description/
 
 void dfs(int node, vector<vector<int>>& adj, vector<bool> &visited) {
     visited[node] = true;
